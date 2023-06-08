@@ -1,0 +1,491 @@
+/* ----------------------------------root declare----------------------------------- */
+
+:root {
+    --primary-color: #131313;
+    --nav-foot-color: #424242;
+    --secondary-color: #727272;
+    --tartary-color: #FF900E;
+    --primary-font: 64px;
+    --secondary-font: 45px;
+    --tartary-font: 16px;
+    --primary-width: 700;
+    --secondary-width: 600;
+    --tartary-width: 400;
+
+}
+
+/* --------------------------------all styles --------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------- body styles ------------------------------------*/
+
+body {
+    background-color: #FFF4E7;
+    font-family: 'Work Sans';
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            header styles start
+------------------------------------------------------------------------------------------------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.head-title {
+    color: var(--primary-color);
+    font-style: var(--secondary-font);
+    font-weight: var(--primary-width);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.title {
+    color: var(--nav-foot-color);
+    font-size: var(--tartary-font);
+    font-weight: var(--tartary-width);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            header styles finish
+------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            banner styles start
+------------------------------------------------------------------------------------------------------------------------*/
+.banner-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 50px;
+    padding: 45px 0;
+}
+
+.banner-details {
+    text-align: center;
+}
+
+.banner-heading {
+    color: var(--primary-color);
+    font-size: var(--primary-font);
+    font-weight: var(--primary-width);
+    margin-bottom: 8px;
+
+}
+
+.banner-title {
+    color: var(--secondary-color);
+    font-weight: var(--tartary-width);
+    font-size: var(--tartary-font);
+    margin-bottom: 8px;
+}
+
+.primary-btn {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--tartary-color);
+    padding: 20px 24px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 1440px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            banner styles finish
+------------------------------------------------------------------------------------------------------------------------*/
+
+/* -----------------------------------main styles-------------------------- */
+
+main {
+    background-color: #ffffff;
+}
+
+/* -----------------------------------main styles-------------------------- */
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            feature section styles start
+------------------------------------------------------------------------------------------------------------------------*/
+.feature-section {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 85px 0;
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-heading {
+    color: var(--primary-color);
+    font-size: var(--secondary-font);
+    font-weight: var(--secondary-width);
+    margin-bottom: 10px;
+}
+
+.single-word {
+    color: var(--secondary-color);
+}
+
+.single-word-two {
+    color: var(--tartary-color);
+}
+
+.feature-title {
+    color: var(--secondary-color);
+    font-size: var(--tartary-font);
+    font-weight: var(--tartary-width);
+    margin-bottom: 15px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            feature section styles finish
+------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            service section styles start
+------------------------------------------------------------------------------------------------------------------------*/
+.service-section {
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    gap: 54px;
+}
+
+.service-heading {
+    color: var(--primary-color);
+    font-size: var(--secondary-font);
+    font-weight: var(--secondary-width);
+}
+
+.heading {
+    display: flex;
+    gap: 21px;
+    padding: 30px 0 0 0;
+    margin-bottom: 21px;
+}
+
+.line {
+    border: 1px solid var(--tartary-color);
+}
+
+.li-heading {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.service-title {
+    margin-bottom: 30px;
+}
+
+.li-title {
+    font-size: var(--tartary-font);
+    font-weight: var(--tartary-width);
+    color: var(--secondary-color);
+}
+
+.service-details ul {
+    list-style: none;
+    padding: 30px 42px 0 42px;
+}
+
+.service-details ul li {
+    padding: 20px 0;
+    margin: 30px 0;
+}
+
+.btn {
+    margin-top: -130px;
+    margin-left: -100px;
+}
+
+.service-btn {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 35px 30px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            service section styles finish
+------------------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------                                                            work details section styles finish
+------------------------------------------------------------------------------------------------------------------------*/
+
+.work-details-section {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    padding: 80px 0;
+    flex-direction: column;
+}
+
+.work-details {
+    margin-bottom: 80px;
+}
+
+.work-heading {
+    font-size: var(--secondary-font);
+    font-weight: var(--secondary-width);
+    color: var(--primary-color);
+    margin-bottom: 24px;
+}
+
+.work-title {
+    font-size: var(--tartary-font);
+    font-weight: var(--tartary-width);
+    color: var(--secondary-color);
+}
+
+.ranks-details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.rank {
+    width: 241px;
+    height: 241px;
+    border: 1px solid var(--tartary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.rank:hover {
+    animation: rotating 1s ease 0s 1 normal forwards;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rank-heading {
+    font-size: var(--secondary-font);
+    font-weight: var(--primary-width);
+    color: var(--nav-foot-color);
+    margin: 7px 0;
+}
+
+.rank-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            sponsor section style start
+------------------------------------------------------------------------------------------------------------------------*/
+.sponsor-section {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sponsor-details {
+    width: 50%;
+}
+
+.sponsor-heading {
+    font-size: var(--secondary-font);
+    font-weight: var(--secondary-width);
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.sponsor-title {
+    font-size: var(--tartary-font-font);
+    font-weight: var(--tartary-width);
+    color: var(--secondary-color);
+}
+
+.sponsor-name {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            sponsor section style finish
+------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            footer style start
+------------------------------------------------------------------------------------------------------------------------*/
+
+footer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-title {
+    color: var(--nav-foot-color);
+    font-size: var(--tartary-font);
+    font-weight: var(--tartary-width);
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                           footer style finish
+------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            media queries for mobile
+------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 576px) {
+    header {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .feature-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-img img {
+        width: 100%;
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ranks-details {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .work-details {
+        text-align: center;
+    }
+
+    .sponsor-name {
+        flex-direction: column;
+    }
+    footer{
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------                                                            media queries for tab
+------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+    header,
+    .banner-section {
+        padding: 10px;
+    }
+
+    .feature-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .service-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-img img {
+        width: 100%;
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .work-details-section {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .ranks-details {
+        gap: 10px;
+    }
+
+    .sponsor-name {
+        flex-wrap: wrap;
+    }
+    footer{
+        text-align: center;
+    }
+
+}
